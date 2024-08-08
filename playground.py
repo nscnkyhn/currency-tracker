@@ -1,3 +1,28 @@
+a: list = []
+
+print(len(a))
+
+if (len(a) != 0):
+    print("A")
+else:
+    print("B")
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+exit()
+
 class MyClass:
     def __init__(self):
         self._protected_var = 10
