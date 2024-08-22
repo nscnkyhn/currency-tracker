@@ -33,14 +33,3 @@ print(final_data["date"])
 for currency in final_data["cur"]:
     if (currency["KurTuru"] == "08"):
         print(f"Sembol : {currency['Title']}\tAlış : {currency['DovizAlis']}\tSatış : {currency['DovizSatis']}\tKur Türü : {currency['KurTuru']}")
-'''
-r: dict = json.loads(r)
-
-keys = r.keys()
-vals = r.values()
-
-print("Values:", list(vals))
-print("Keys:", list(keys))
-
-#print(r)
-'''
